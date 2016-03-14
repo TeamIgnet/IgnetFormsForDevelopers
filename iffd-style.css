@@ -1,0 +1,42 @@
+/**
+* IFFD Main Styles
+*/
+
+.iffd-field {
+	display: block;
+	font-weight: normal;
+}
+
+		.iffd-field-title,
+		.iffd-field-description  {
+			margin: 5px 0;
+		}
+
+		.iffd-field-title {
+			font-weight: 700;
+		}
+
+		.iffd-field-errors-messages {
+			color: darkred;
+		}
+		
+			.iffd-field-error {
+				display: block;
+			}
+
+	.iffd-field input[type="checkbox"], 
+	.iffd-field input[type="radio"] {
+		margin: 10px 3px;
+	}
+
+	.iffd-field input, 
+	.iffd-field textarea, 
+	.iffd-field select {
+		margin: 10px 0;
+		padding: 6px 12px;
+	}
+
+		.iffd-field input[disabled] {
+			background: #eee;
+			cursor: not-allowed;
+		}
